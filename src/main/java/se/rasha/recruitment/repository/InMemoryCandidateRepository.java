@@ -7,7 +7,7 @@ import se.rasha.recruitment.domain.Candidate;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-// Svenska kommentarer:
+
 // Enkel in-memory-implementation. Trådsäker karta för enkelhet.
 public class InMemoryCandidateRepository implements CandidateRepository {
     private static final Logger log = LoggerFactory.getLogger(InMemoryCandidateRepository.class);
