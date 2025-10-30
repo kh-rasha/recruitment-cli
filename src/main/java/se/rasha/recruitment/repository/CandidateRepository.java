@@ -1,7 +1,6 @@
 package se.rasha.recruitment.repository;
 
 import se.rasha.recruitment.domain.Candidate;
-
 import java.util.List;
 import java.util.Optional;
 
