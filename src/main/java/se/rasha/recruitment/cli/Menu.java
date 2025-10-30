@@ -1,7 +1,5 @@
 package se.rasha.recruitment.cli;
 
-
-
 import se.rasha.recruitment.domain.Candidate;
 import se.rasha.recruitment.filters.AgeFilter;
 import se.rasha.recruitment.filters.CandidateFilter;
@@ -10,7 +8,6 @@ import se.rasha.recruitment.filters.IndustryFilter;
 import se.rasha.recruitment.repository.InMemoryCandidateRepository;
 import se.rasha.recruitment.service.CandidateService;
 import se.rasha.recruitment.service.ValidationService;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

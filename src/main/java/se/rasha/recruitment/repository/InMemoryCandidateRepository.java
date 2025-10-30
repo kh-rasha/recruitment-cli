@@ -3,7 +3,6 @@ package se.rasha.recruitment.repository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import se.rasha.recruitment.domain.Candidate;
-
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 

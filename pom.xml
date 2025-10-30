@@ -26,7 +26,7 @@
             <artifactId>slf4j-api</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
-        <!-- Simple binding (سهل بدون إعدادات logback) -->
+        <!-- Simple binding ( logback) -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
@@ -53,7 +53,7 @@
 
     <build>
         <plugins>
-            <!-- لتشغيل الـ Main من Maven (اختياري؛ تقدري تشغليه من IntelliJ) -->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

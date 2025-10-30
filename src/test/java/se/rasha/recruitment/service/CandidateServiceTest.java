@@ -8,9 +8,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import se.rasha.recruitment.domain.Candidate;
 import se.rasha.recruitment.repository.CandidateRepository;
-
 import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
